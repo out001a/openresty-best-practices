@@ -29,8 +29,6 @@
 * [Lua高阶]
     * [元表](lua/metatable.md)
     * [面向对象编程](lua/object_oriented.md)
-    * [FFI](lua/FFI.md)
-    * [下标从1开始](lua/subscript.md)
     * [局部变量](lua/local.md)
     * [判断数组大小](lua/array_size.md)
     * [非空判断](lua/not_nill.md)
@@ -40,6 +38,8 @@
     * [函数在调用代码前定义](lua/function_before_use.md)
     * [抵制使用module()函数来定义Lua模块](lua/not_use_module.md)
     * [点号与冒号操作符的区别](lua/dot_diff.md)
+    * [module 是邪恶的]
+    * [FFI](lua/FFI.md)
     * [控制结构for的使用](lua/for.md)
 * [Nginx](ngx/nginx.md)
     * [Nginx 新手起步](ngx/nginx_brief.md)
