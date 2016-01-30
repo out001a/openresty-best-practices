@@ -38,7 +38,7 @@
     * [函数在调用代码前定义](lua/function_before_use.md)
     * [抵制使用 module() 函数来定义 Lua 模块](lua/not_use_module.md)
     * [点号与冒号操作符的区别](lua/dot_diff.md)
-    * [module 是邪恶的]
+    * [module 是邪恶的](lua/module_is_evil.md)
     * [FFI](lua/FFI.md)
     * [控制结构for的使用](lua/for.md)
 * [Nginx](ngx/nginx.md)
@@ -66,7 +66,7 @@
     * [获取Nginx内置绑定变量](openresty/inline_var.md)
     * [子查询](openresty/sub_request.md)
     * [在不同阶段共享变量](openresty/share_var.md)
-    * [防止SQL注入]
+    * [防止 SQL 注入](openresty/safe_sql.md)
 * [LuaRestyRedisLibrary](redis.md)
     * [访问有授权验证的 Redis](redis/auth_connect.md)
     * [select+set_keepalive 组合操作引起的数据读写错误](redis/select-keeplive.md)
