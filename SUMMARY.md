@@ -41,6 +41,7 @@
     * [module 是邪恶的](lua/module_is_evil.md)
     * [FFI](lua/FFI.md)
     * [控制结构for的使用](lua/for.md)
+    * [Not Yet Implemented]
 * [Nginx](ngx/nginx.md)
     * [Nginx 新手起步](ngx/nginx_brief.md)
     * [location 匹配规则](ngx/nginx_local_pcre.md)
@@ -107,10 +108,20 @@
     * [如何引用第三方 resty 库](ngx_lua/how_use_third_lib.md)
     * [body 在 location 中的传递](ngx_lua/capture.md)
     * [典型应用场景](ngx_lua/use_case.md)
+    * [Nginx 状态查看器]
 * [LuaRestyDNSLibrary](dns/main.md)
     * [使用动态 DNS 来完成 HTTP 请求](dns/use_dynamic_dns.md)
 * [LuaRestyLock](lock.md)
     * [缓存失效风暴](lock/cache-miss-storm.md)
+* [stream_lua_module]
+    * [TCP 代理负载]
+    * [基本用法]
+    * [故障细节]
+* [balancer_by_lua]
+    * [自定义 upstream 选举]
+* [OpenSSL 与 OpenResty]
+    * [什么是 HTTPS]
+    * [懒惰动态加载证书]
 * [测试](test.md)
     * [单元测试](test/unittest.md)
     * [API 测试](test/apitest.md)
