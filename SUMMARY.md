@@ -40,14 +40,13 @@
     * [点号与冒号操作符的区别](lua/dot_diff.md)
     * [module 是邪恶的](lua/module_is_evil.md)
     * [FFI](lua/FFI.md)
-    * [控制结构for的使用](lua/for.md)
-    * [Not Yet Implemented]
+    * [什么是 JIT]
 * [Nginx](ngx/nginx.md)
     * [Nginx 新手起步](ngx/nginx_brief.md)
     * [location 匹配规则](ngx/nginx_local_pcre.md)
     * [if 是邪恶的](ngx/if_is_evil.md)
     * [静态文件服务](ngx/static_file.md)
-    * [日志服务](ngx/nginx_log.md)
+    * [日志](ngx/nginx_log.md)
     * [反向代理](ngx/reverse_proxy.md)
     * [负载均衡](ngx/balancer.md)
     * [陷阱和常见错误](ngx/pitfalls_and_common_mistakes.md)
@@ -68,6 +67,7 @@
     * [子查询](openresty/sub_request.md)
     * [在不同阶段共享变量](openresty/share_var.md)
     * [防止 SQL 注入](openresty/safe_sql.md)
+    * [如何发起新 HTTP 请求]
 * [LuaRestyRedisLibrary](redis.md)
     * [访问有授权验证的 Redis](redis/auth_connect.md)
     * [select+set_keepalive 组合操作引起的数据读写错误](redis/select-keeplive.md)
@@ -103,12 +103,13 @@
     * [变量的共享范围](ngx_lua/lua-variable-scope.md)
     * [动态限速](ngx_lua/lua-limit.md)
     * [shared.dict 非队列性质](ngx_lua/shared_get_keys.md)
-    * [如何添加自己的lua api](ngx_lua/add_new_lua_api.md)
     * [正确使用长链接](ngx_lua/keepalive.md)
     * [如何引用第三方 resty 库](ngx_lua/how_use_third_lib.md)
     * [body 在 location 中的传递](ngx_lua/capture.md)
     * [典型应用场景](ngx_lua/use_case.md)
     * [Nginx 状态查看器]
+    * [怎样理解 cosocket]
+    * [如何使用高速缓存]
 * [LuaRestyDNSLibrary](dns/main.md)
     * [使用动态 DNS 来完成 HTTP 请求](dns/use_dynamic_dns.md)
 * [LuaRestyLock](lock.md)
@@ -142,5 +143,16 @@
     * [显示的是什么](flame_graph/what.md)
     * [如何安装火焰图生成工具](flame_graph/install.md)
     * [如何定位问题](flame_graph/how.md)
-* [杂谈]
-    * [开源文化对 奇虎360 企业安全的影响](others/about_qihoo_opensource.md)
+* [OpenResty 周边]
+    * [Vanilla/香草](others/vanilla/intro.md)
+        * 为什么要开发Vanilla
+        * Vanilla致力解决的问题
+        * 组织结构
+        * 性能指标
+        * Demo 示例
+        * 新浪移动的OpenResty之路
+        * [Vanilla项目实践]
+            * 新浪移动评论项目
+            * 新浪移动独立产品Vanilla改造
+    * [Mashape/kong]
+    * [如何添加自己的lua api](others/add_new_lua_api.md)
