@@ -40,7 +40,7 @@
     * [点号与冒号操作符的区别](lua/dot_diff.md)
     * [module 是邪恶的](lua/module_is_evil.md)
     * [FFI](lua/FFI.md)
-    * [什么是 JIT]
+    * [什么是 JIT](lua/what_jit.md)
 * [Nginx](ngx/nginx.md)
     * [Nginx 新手起步](ngx/nginx_brief.md)
     * [location 匹配规则](ngx/nginx_local_pcre.md)
@@ -63,12 +63,12 @@
     * [输出响应体](openresty/response.md)
     * [日志输出](openresty/log_response.md)
     * [简单API Server框架](openresty/simple_api.md)
-    * [获取Nginx内置绑定变量](openresty/inline_var.md)
+    * [使用 Nginx 内置绑定变量](openresty/inline_var.md)
     * [子查询](openresty/sub_request.md)
-    * [在不同阶段共享变量](openresty/share_var.md)
+    * [不同阶段共享变量](openresty/share_var.md)
     * [防止 SQL 注入](openresty/safe_sql.md)
-    * [如何发起新 HTTP 请求]
-* [LuaRestyRedisLibrary](redis.md)
+    * [如何发起新 HTTP 请求](openresty/how_request_http.md)
+* [LuaRestyRedisLibrary]
     * [访问有授权验证的 Redis](redis/auth_connect.md)
     * [select+set_keepalive 组合操作引起的数据读写错误](redis/select-keeplive.md)
     * [redis 接口的二次封装（简化建连、拆连等细节）](redis/out_package.md)
@@ -108,7 +108,7 @@
     * [body 在 location 中的传递](ngx_lua/capture.md)
     * [典型应用场景](ngx_lua/use_case.md)
     * [Nginx 状态查看器]
-    * [怎样理解 cosocket]
+    * [怎样理解 cosocket](ngx_lua/whats_cosocket.md)
     * [如何使用高速缓存]
 * [LuaRestyDNSLibrary](dns/main.md)
     * [使用动态 DNS 来完成 HTTP 请求](dns/use_dynamic_dns.md)
@@ -125,6 +125,7 @@
     * [懒惰动态加载证书]
 * [测试](test.md)
     * [单元测试](test/unittest.md)
+    * [代码覆盖率](test/coverage.md)
     * [API 测试](test/apitest.md)
     * [性能测试](test/performance_test.md)
     * [持续集成](test/ci.md)
