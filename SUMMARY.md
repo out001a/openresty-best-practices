@@ -112,6 +112,7 @@
     * [怎样理解 cosocket](ngx_lua/whats_cosocket.md)
     * [如何使用高速缓存]
     * [如何安全启动唯一实例的 timer ](ngx_lua/how_one_instance_time.md)
+    * [如何正确的解析域名](ngx_lua/resolve_the_domain_name.md)
 * [LuaRestyDNSLibrary](dns/main.md)
     * [使用动态 DNS 来完成 HTTP 请求](dns/use_dynamic_dns.md)
 * [LuaRestyLock](lock.md)
@@ -157,7 +158,15 @@
         * [Vanilla项目实践]
             * 新浪移动评论项目
             * 新浪移动独立产品Vanilla改造
-    * [Mashape/kong]
+    * [Mashape/kong](others/kong/intro.md)
+        * Kong名字的来历(others/kong/origin.md)
+        * Kong能解决什么问题(others/kong/apigateway.md)
+        * 国内外有哪些类似的产品(others/kong/products.md)
+        * 关键概念(others/kong/keyconcepts.md)
+        * 集群功能(others/kong/cluster.md)
+        * 开发自定义插件(others/kong/plugin.md)
+            * 扩展已经存在的插件(others/kong/plugin-upgrad.md)
+            * 开发一个新的插件(others/kong/plugin-new.md)
     * [如何添加自己的lua api](others/add_new_lua_api.md)
 * 零碎知识点记录
     * [2016-7 月汇总](something/2016_7.md)
@@ -169,3 +178,9 @@
     * [2016-8 月汇总]
         - [如何在后台开启轻量级线程来定时更新共享内存](something/2016_8.md)
         - [如何使用 os.getenv 获取系统环境变量](something/2016_8.md)
+    * [2016-10 月汇总]
+        - [一个 openresty 内存“泄漏”问题](something/2016_10_1.md)
+        - [用 do-end 整理你的代码](something/2016_10_2.md)
+        - [lua 中如何 continue](something/2016_10_3.md)
+        - [调用 FFI 出现 "table overflow"](something/2016_10_4.md)
+        - [如何定位 openresty 崩溃 bug](something/2016_10_5.md)
